@@ -20,21 +20,21 @@ var twoInt = parseInt(num.toString(10));
 
 // 美团点评
 // 第一题
-function main () {
-     var node = 0;
-     var edge = 0;
-     var index  = 0;
-     var a, b;
-     while((a=readInt())!=null && (b=readInt())!=null) {
-        if(index == 0) {
-            node = a;
-            edge = b;
-            index++;
-        } else {
+// function main () {
+//      var node = 0;
+//      var edge = 0;
+//      var index  = 0;
+//      var a, b;
+//      while((a=readInt())!=null && (b=readInt())!=null) {
+//         if(index == 0) {
+//             node = a;
+//             edge = b;
+//             index++;
+//         } else {
             
-        }
-     }
- } 
+//         }
+//      }
+//  } 
 
 
 // 第二题
@@ -53,63 +53,63 @@ function main () {
 // }
 
 
-function lessThan (one, two) {
-    var lenOne = one.length;
-    var lenTwo = two.length;
-    var len = 0;
-    if(lenOne > lenTwo) {
-        len = lenTwo;
-    } else {
-        len = lenOne;
-    }
-    for(var i = 0; i < len; i ++) {
-        if(one[len] < two[len]) {
-            return true;
-        } 
-    }
-    if(lenOne > lenTwo) {
-        return false; 
-    } else {
-        return true;
-    }
-}
-console.log(lessThan('adf', 'avs'));
-console.log('less than');
+// function lessThan (one, two) {
+//     var lenOne = one.length;
+//     var lenTwo = two.length;
+//     var len = 0;
+//     if(lenOne > lenTwo) {
+//         len = lenTwo;
+//     } else {
+//         len = lenOne;
+//     }
+//     for(var i = 0; i < len; i ++) {
+//         if(one[len] < two[len]) {
+//             return true;
+//         } 
+//     }
+//     if(lenOne > lenTwo) {
+//         return false; 
+//     } else {
+//         return true;
+//     }
+// }
+// console.log(lessThan('adf', 'avs'));
+// console.log('less than');
 
-var index = 0;
-var min ="z";
-var resArr = [
-    {
-        name: "math",
-        hard: "3"
-    },
-    {
-        name: "algorithm",
-        hard: "3"
-    },
-    {
-        name: "string",
-        hard: "5"
-    },
-    {
-        name: "dp",
-        hard: "4"
-    }
-];
-var len = resArr.length;
-var minIndex = 0;
-for(var i = 0; i < len; i++) {
-    for(var j = 0; j < len; j++) {
-        if(resArr[j].name[0] < min) {
-            min = resArr[j].name[0];
-            minIndex = j;
-        }
-    }
-    console.log(resArr[minIndex].name + " " + resArr[minIndex].hard);
-    resArr[minIndex].name = 'zzzzz';
-    minIndex = 0;
-    min = 'z';
-}
+// var index = 0;
+// var min ="z";
+// var resArr = [
+//     {
+//         name: "math",
+//         hard: "3"
+//     },
+//     {
+//         name: "algorithm",
+//         hard: "3"
+//     },
+//     {
+//         name: "string",
+//         hard: "5"
+//     },
+//     {
+//         name: "dp",
+//         hard: "4"
+//     }
+// ];
+// var len = resArr.length;
+// var minIndex = 0;
+// for(var i = 0; i < len; i++) {
+//     for(var j = 0; j < len; j++) {
+//         if(resArr[j].name[0] < min) {
+//             min = resArr[j].name[0];
+//             minIndex = j;
+//         }
+//     }
+//     console.log(resArr[minIndex].name + " " + resArr[minIndex].hard);
+//     resArr[minIndex].name = 'zzzzz';
+//     minIndex = 0;
+//     min = 'z';
+// }
 
 
 // function main() {
