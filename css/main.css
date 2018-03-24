@@ -963,7 +963,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	top: -3rem;
 	font-family: "poppins-bold", sans-serif;
 	color: #313131;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	letter-spacing: .2rem;
 	font-size: 1.5rem;
 	line-height: 2.4rem;
@@ -1497,8 +1497,8 @@ header .logo a {
  */
 #about {
 	background: #FFFFFF;
-	padding-top: 12rem;
-	padding-bottom: 6rem;
+	padding-top: 6rem;
+	padding-bottom: 2rem;
 }
 #about .section-intro {
 	margin-bottom: 3rem;
@@ -1626,8 +1626,8 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #resume {
-	padding-top: 12rem;
-	padding-bottom: 12rem;
+	padding-top: 6rem;
+	padding-bottom: 2rem;
 }
 
 #resume .resume-header {
@@ -1796,8 +1796,8 @@ header .logo a {
  */
 #portfolio {
 	background: #FFFFFF;
-	padding-top: 12rem;
-	padding-bottom: 12rem;
+	padding-top: 6rem;
+	padding-bottom: 6rem;
 }
 #portfolio .folio-item {
 	padding: 0;
